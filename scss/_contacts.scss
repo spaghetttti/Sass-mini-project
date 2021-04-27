@@ -1,0 +1,38 @@
+.contact {
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    padding-top: 160px;
+    flex-direction: column;
+    background: 
+    linear-gradient(
+        to right,
+        rgba($primary-color, 0.9),
+        rgba($primary-color, 0.3)
+    ),
+    url('https://images.pexels.com/photos/997443/pexels-photo-997443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') center top;
+    background-size: cover;
+ 
+   h2 {
+       font-size: 3rem;
+       margin-bottom: 2rem;
+
+   }
+   &__list {
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-gap: 2rem;
+       font-size: 1.5rem;
+
+   }
+
+   .social-icons {
+       position: initial;
+       margin-top: 2rem;
+   }
+}
+
+
+
